@@ -850,6 +850,9 @@ main.scale-down {
 .nav-social li a.google:hover{
 	color:#df4a32;
 }
+.nav-social li a.envato:hover{
+	color:#81B441;
+}
 .nav-social li a:before{
 	content:'';
 	position:absolute;
@@ -869,6 +872,9 @@ main.scale-down {
 }
 .nav-social li a.google:before{
 	background-color:#df4a32;
+}
+.nav-social li a.envato:before{
+	background-color:#81B441;
 }
 
 /* #General style
@@ -917,7 +923,7 @@ main.scale-down {
 	line-height:30px;
 	letter-spacing:1px;
 	font-style: italic;
-	color: #fff;
+	color: #ccc;
 }
 .home-text-freelance h1 span{
 	font-size: 95px;
@@ -936,39 +942,6 @@ main.scale-down {
 	background-size:cover;
 	text-shadow: 2px 8px 6px rgba(0,0,0,0.1);
 }
-.home-text-freelance h1 span.image2{
-	font-size: 95px;
-	line-height: 110px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight:700;
-	font-style: normal;
-	color: #fff;
-	letter-spacing:0;
-	-webkit-text-fill-color: transparent;
-	background: -webkit-linear-gradient(transparent, transparent),
-             url('../images/let2.jpg') repeat;
-	background: -o-linear-gradient(transparent, transparent);
-	-webkit-background-clip: text;
-	background-position:center center;
-	background-size:cover;
-	text-shadow: 2px 8px 6px rgba(0,0,0,0.1);
-}
-
-
-.home-text-wrap{
-	position:absolute;
-	width:100%;
-	top:50%;
-	margin-top:50px;
-	left:0;
-	z-index:20;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
 
 /* #Scroll back to top
 ================================================== */
@@ -1423,15 +1396,6 @@ svg * {
 	left:0;
 	z-index:5;
 	background-color:rgba(0,0,0,.75);
-}
-.dark-over-2{
-	position:absolute;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	z-index:5;
-	background-color:rgba(0,0,0,.35);
 }
 
 
@@ -2732,6 +2696,9 @@ svg * {
 .footer-social li a.vimeo:hover{
 	color:#1ab7ea;
 }
+.footer-social li a.envato:hover{
+	color:#81B441;
+}
 .footer-social li a:before{
 	content:'';
 	position:absolute;
@@ -2754,6 +2721,9 @@ svg * {
 }
 .footer-social li a.vimeo:before{
 	background-color:#1ab7ea;
+}
+.footer-social li a.envato:hover{
+	background-color:#81B441;
 }
 
 

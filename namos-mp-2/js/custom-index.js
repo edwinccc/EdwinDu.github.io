@@ -41,7 +41,7 @@
         //Slow scroll and fade it out 
         $Fade.css({
             'margin-top': -(windowScroll / 0) + "px",
-            'opacity': 1 - (windowScroll / 500)
+            'opacity': 1 - (windowScroll / 300)
         });
     });	
 	
@@ -71,11 +71,6 @@
 		//Tooltip
 
 		$(".tipped").tipper();
-		
-		
-		//Parallax
-		
-		$('.parallax').parallax("50%", 0.3);
 
 	
 		//Navigation	

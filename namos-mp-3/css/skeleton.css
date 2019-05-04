@@ -259,8 +259,8 @@
 ================================================== */
 
 
-    @media only screen and (max-width: 479px) {
-        .container { width: 300px; }
+    @media only screen and (max-width: 767px) {
+        .container { width: 420px; }
         .container .columns,
         .container .column {  margin-left: 0; margin-right: 0;  margin-top: 10px; margin-bottom: 10px;}
 
@@ -280,7 +280,7 @@
 		.container .one-fifth.column,
 		.container .two-fifths.column,
 		.container .three-fifths.column, 
-		.container .four-fifths.column { width: 300px; }
+		.container .four-fifths.column { width: 420px; }
 
         /* Offsets */
         .container .offset-by-one,
