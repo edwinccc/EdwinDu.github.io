@@ -905,6 +905,7 @@ main.scale-down {
 .background-dark{
 	background-color:#121212;
 }
+
 .background-black{
 	background-color:#020202;
 }
@@ -1433,7 +1434,7 @@ svg * {
 .portfolio-box-1.full-width{
 	width:calc(100% - 50px);
 	margin-left:0;
-	margin:25px;
+	margin:10px;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
@@ -1444,9 +1445,9 @@ svg * {
 	width:25%;
 }
 .portfolio-box-1.have-space{
-	margin:25px;
+	margin:10px;
 	margin-left:24px;
-	width:calc(33.3333333333% - 50px);
+	width:calc(100% - 50px);
 }
 .portfolio-box-1.half-width.have-space{
 	margin:25px;
@@ -1534,7 +1535,7 @@ svg * {
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 
@@ -2778,20 +2779,20 @@ svg * {
 	line-height: 80px;
 }
 .portfolio-box-1{
-	width:50%;
+	width:100%;
 }
 .portfolio-box-1.quarter-width{
-	width:50%;
+	width:100%;
 }
 .portfolio-box-1.have-space{
 	margin:25px;
 	margin-left:24px;
-	width:calc(50% - 50px);
+	width:calc(100% - 50px);
 }
 .portfolio-box-1.quarter-width.have-space{
 	margin:25px;
 	margin-left:24px;
-	width:calc(50% - 50px);
+	width:calc(100% - 50px);
 }
 }
 
